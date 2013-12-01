@@ -1,0 +1,14 @@
+configure args: SHORE_HOME=/home/kobe/workspace/shore-mt --enable-shore6 --enable-debug
+
+Shore Kits configuration:
+  Version:         KITS_VERSION   shore-kits.2.1
+  Home:            KITS_HOME      /home/kobe/workspace/shore-kits
+  Features:        KITS_FEATURES   caches
+  Shore SM home:   SHORE_HOME     /home/kobe/workspace/shore-mt
+  Readline home:   READLINE_HOME  /usr
+  CXX compiler:    CXX            g++
+  CXX version:     CXX_VERSION    4.5.2
+  Architecture/OS: ARCHOS         x86_64_LINUX
+  Compilation:     COMP_OPTIONS    debug dbgsymbols
+  CXXFLAGS         -g -O0 -ggdb   -mtune=native -march=native -Wall -Wcast-align -Wextra -Wfloat-equal -Wno-return-type 	 -Wno-invalid-offsetof -Wno-conversion -Wno-system-headers -D_REENTRANT -DARCH_LP64 -m64  
+  LDFLAGS          -lnsl -ldl -lm -lpthread -lrt  -lncurses
